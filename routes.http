@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://backend-nodejs-starter.onrender.com/videos
 Content-type: application/json
 Accept-Language: pt
 
@@ -10,14 +10,13 @@ Accept-Language: pt
 
 ###
 
-GET http://localhost:3333/videos
+GET https://backend-nodejs-starter.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/8d8aadea-95ef-44c4-a73c-d42b64c00540
+PUT https://backend-nodejs-starter.onrender.com/videos/8d8aadea-95ef-44c4-a73c-d42b64c00540
 Content-type: application/json
 Accept-Language: pt
-
 {
     "title": "video 02",
     "description": "video",
@@ -26,6 +25,6 @@ Accept-Language: pt
 
 ###
 
-DELETE  http://localhost:3333/videos/8d8aadea-95ef-44c4-a73c-d42b64c00540
+DELETE https://backend-nodejs-starter.onrender.com/videos/8d8aadea-95ef-44c4-a73c-d42b64c00540
 
 
